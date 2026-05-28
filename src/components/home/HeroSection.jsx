@@ -18,18 +18,18 @@ function HeroSection() {
         </p>
 
         <div className="hero-buttons">
-          <Link to="/programs" className="primary-btn">
-          프로그램 보기
+        <Link to="/programs">
+        <button>프로그램 보기</button>
         </Link>
 
-     <a
-      href="https://forms.gle/Mdv15EjuxFbzhQaP7"
-      target="_blank"
+      <a
+       href="https://forms.gle/Mdv15EjuxFbzhQaP7"
+       target="_blank"
       rel="noreferrer"
      >
-      <button>신청하기</button>
-     </a>
-        </div>
+    <button>신청하기</button>
+  </a>
+</div>
       </div>
 
       <div className="hero-image">
