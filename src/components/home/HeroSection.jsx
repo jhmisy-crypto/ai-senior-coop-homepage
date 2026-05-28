@@ -1,5 +1,6 @@
 
 import heroImage from "../../assets/hero.jpg";
+import { Link } from "react-router-dom";
 
 function HeroSection() {
   return (
@@ -17,9 +18,9 @@ function HeroSection() {
         </p>
 
         <div className="hero-buttons">
-          <a href="/programs">
-      <button>프로그램 보기</button>
-     </a>
+          <Link to="/programs" className="primary-btn">
+          프로그램 보기
+        </Link>
 
      <a
       href="https://forms.gle/Mdv15EjuxFbzhQaP7"
