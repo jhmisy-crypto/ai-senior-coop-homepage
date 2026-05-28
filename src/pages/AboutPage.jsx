@@ -8,7 +8,9 @@ function AboutPage() {
       <main className="page-section">
         
          <p className="section-label">소개</p>
-         <h1>AI와 함께 시니어의 새로운 가능성을 만듭니다</h1>
+         <h1 style={{ lineHeight: "1.4" }}>
+          AI와 함께 시니어의 새로운 가능성을 만들어갑니다
+         </h1>
 
         <p className="page-desc">
           AI시니어협동조합은 현재 설립 절차를 진행 중입니다.
