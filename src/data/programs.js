@@ -19,8 +19,8 @@ export const programs = [
   {
     id: "basic-ai",
     status: "모집 예정",
-    title: "AI기초교육",
-    desc: "챗GPT와 생성형 AI를 안전하고 쉽게 익히는 입문 과정",
+    title: "생성형 AI 첫걸음",
+    desc: "생성형 AI를 처음 접하는 시니어를 위한 입문 과정",
     subtitle: "생성형 AI를 쉽고 안전하게 시작하는 첫걸음",
     overview: "AI기초교육은 ChatGPT를 중심으로 생성형 AI의 기본 원리와 실제 활용법을 쉽고 친절하게 배우는 입문 과정입니다.",
     target: "AI가 어렵게 느껴지는 시니어, 업무와 일상에 AI를 활용하고 싶은 분에게 적합합니다.",
