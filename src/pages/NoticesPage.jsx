@@ -4,7 +4,6 @@ import Footer from "../components/layout/Footer";
 import { notices } from "../data/notices";
 
 
-
 function NoticesPage() {
   return (
     <>

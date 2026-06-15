@@ -1152,3 +1152,458 @@ body {
     line-height: 1.7 !important;
   }
 }
+
+/* =========================
+   Join Page
+========================= */
+
+.join-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.join-hero {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.join-hero h1 {
+  font-size: 56px;
+  line-height: 1.3;
+  color: #1f3b63;
+  margin-bottom: 24px;
+}
+
+.join-hero p {
+  font-size: 22px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.join-section {
+  margin-bottom: 80px;
+}
+
+.join-section h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #1f3b63;
+}
+
+.join-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.join-card {
+  background: #f7f5ef;
+  border-radius: 20px;
+  padding: 24px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.join-benefit .join-card {
+  background: #eef3fa;
+}
+
+.join-process-box {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #f8f8f8;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.join-process-box span {
+  display: block;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.join-message {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.join-message p {
+  font-size: 22px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.join-message strong {
+  font-size: 28px;
+  color: #1f3b63;
+  line-height: 1.6;
+}
+
+.join-apply {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.join-apply h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.join-apply p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.join-apply-button {
+  display: inline-block;
+  background: #1f3b63;
+  color: white;
+  text-decoration: none;
+  padding: 18px 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.join-apply-button:hover {
+  background: #284b7a;
+}
+
+.join-contact {
+  text-align: center;
+  padding-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+.join-contact h2 {
+  margin-bottom: 20px;
+}
+
+.join-contact p {
+  font-size: 18px;
+  line-height: 2;
+  color: #555;
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 768px) {
+  .join-page {
+    padding: 50px 20px;
+  }
+
+  .join-hero h1 {
+    font-size: 34px;
+  }
+
+  .join-hero p {
+    font-size: 18px;
+  }
+
+  .join-section h2 {
+    font-size: 28px;
+  }
+
+  .join-card {
+    font-size: 17px;
+    padding: 20px;
+  }
+
+  .join-process-box {
+    padding: 25px;
+  }
+
+  .join-process-box span {
+    font-size: 18px;
+  }
+
+  .join-message p {
+    font-size: 18px;
+  }
+
+  .join-message strong {
+    font-size: 22px;
+  }
+
+  .join-apply h2 {
+    font-size: 30px;
+  }
+
+  .join-apply p {
+    font-size: 18px;
+  }
+
+  .join-apply-button {
+    width: 100%;
+    max-width: 320px;
+    font-size: 18px;
+  }
+}
+
+.join-hero-image {
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+.join-hero-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+@media (max-width: 768px) {
+  .join-hero-image img {
+    height: 240px;
+  }
+}
+
+.join-hero-image {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+}
+
+.join-hero-image img {
+  width: 100%;
+  height: 460px;
+  object-fit: contain;
+  border-radius: 28px;
+  background: #f8f8f8;
+}
+
+/* =========================
+   Join Hero Landing Style
+========================= */
+
+.landing-join-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 56px;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.landing-join-hero .join-hero-image {
+  margin: 0;
+  max-width: none;
+}
+
+.landing-join-hero .join-hero-image img {
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+.join-hero-content {
+  text-align: left;
+}
+
+.join-hero-content h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  color: #1f3b63;
+  margin-bottom: 24px;
+}
+
+.join-hero-content p {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 34px;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .landing-join-hero {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+
+  .landing-join-hero .join-hero-image img {
+    height: 240px;
+    border-radius: 22px;
+  }
+
+  .join-hero-content {
+    text-align: center;
+  }
+
+  .join-hero-content h1 {
+    font-size: 34px;
+  }
+
+  .join-hero-content p {
+    font-size: 18px;
+  }
+}
+
+.join-programs {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.join-programs h2 {
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.join-program-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.join-program-card {
+  background: #f8f8f8;
+  border-radius: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.join-program-card h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0f2a63;
+}
+
+.join-program-card p {
+  line-height: 1.8;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+
+  .join-program-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .join-programs h2 {
+    font-size: 32px;
+  }
+
+}
+
+/* =========================
+   조합 활동 갤러리
+========================= */
+
+.join-gallery {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.join-gallery h2 {
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+
+.gallery-subtitle {
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.join-gallery-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.join-gallery-grid img {
+  width: 100%;
+  height: 260px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  transition: all 0.3s ease;
+}
+
+.join-gallery-grid img:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+
+  .join-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .join-gallery h2 {
+    font-size: 32px;
+  }
+
+}
+
+/* =========================
+   Join Contact Upgrade
+========================= */
+
+.upgraded-contact {
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.contact-info-card {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 48px 36px;
+  border-radius: 28px;
+  background: #f7f5ef;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.contact-info-card h3 {
+  font-size: 30px;
+  color: #1f3b63;
+  margin-bottom: 20px;
+}
+
+.contact-info-card > p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 32px;
+  color: #555;
+}
+
+.contact-lines p {
+  font-size: 18px;
+  line-height: 1.9;
+  margin: 0;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .contact-info-card {
+    padding: 36px 24px;
+  }
+
+  .contact-info-card h3 {
+    font-size: 26px;
+  }
+
+  .contact-info-card > p {
+    font-size: 18px;
+  }
+
+  .contact-lines p {
+    font-size: 16px;
+  }
+}

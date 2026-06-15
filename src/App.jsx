@@ -8,6 +8,7 @@ import "./App.css";
 import NoticeDetailPage from "./pages/NoticeDetailPage";
 import ResourcesPage from "./pages/ResourcesPage";
 import ContactPage from "./pages/ContactPage";
+import JoinPage from "./pages/JoinPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/notices/:id" element={<NoticeDetailPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/join" element={<JoinPage />} />
       </Routes>
     </BrowserRouter>
   );
