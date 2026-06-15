@@ -32,7 +32,7 @@ function JoinPage() {
     </p>
 
     <a
-      href="https://forms.gle/여기에구글폼주소"
+      href="https://forms.gle/KEUhinveqV7Ro1zw6"
       target="_blank"
       rel="noreferrer"
       className="join-apply-button"
