@@ -5,15 +5,15 @@ function Footer() {
         <h3>AI시니어협동조합</h3>
 
         <p>
-          AI 시대,
-          시니어가 다시 배우고 연결되는 공동체
+         경험이 지혜로,<br />
+         지혜가 미래로
         </p>
       </div>
 
       <div className="footer-info">
-        <p>주소 | 경상북도 안동시</p>
-        <p>전화 | 010-0000-0000</p>
-        <p>이메일 | ailc@example.com</p>
+       <p>대표메일 | info@aiseniors.kr</p>
+       <p>홈페이지 | https://aiseniors.kr</p>
+       <p>주소 | 경상북도 안동시</p>
       </div>
 
       <div className="footer-bottom">

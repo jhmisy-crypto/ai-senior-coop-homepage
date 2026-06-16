@@ -29,11 +29,9 @@ function ContactPage() {
           
           <h2>연락처</h2>
 
-           <ul>
-            <li>대표메일 : info@aiseniors.kr</li>
-            <li>홈페이지 : https://aiseniors.kr</li>
-            <li>기관명 : AI시니어협동조합</li>
-           </ul>
+           <p>대표메일 : info@aiseniors.kr</p>
+           <p>홈페이지 : https://aiseniors.kr</p>
+           <p>기관명 : AI시니어협동조합</p>
           </div>
 
             <button className="apply-button">
